@@ -1,0 +1,28 @@
+#main {
+    padding: 10px;
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+.title h3 {
+    font-size: 20px;
+    font-weight: light;
+}
+
+a {
+    color: #555;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+circle.hidden {
+  fill: #ccc !important;
+  fill-opacity: .2;
+}
+
+rect.hidden {
+  fill: #ccc !important;
+  fill-opacity: .2;
+}
