@@ -36,7 +36,7 @@ These labs are designed to teach you the skills needed to create data visualizat
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
+[Wiki](https://github.gatech.edu/CS4460/Spring21-Labs-PUBLIC/wiki)
 
 
 
