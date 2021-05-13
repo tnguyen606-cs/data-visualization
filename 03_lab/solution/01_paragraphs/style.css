@@ -1,0 +1,17 @@
+
+thead td {
+    background-color: #ddd;
+    color: #555;
+}
+
+td {
+    padding: 2px 6px;
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+#main {
+    margin: 10px 20px;
+}
