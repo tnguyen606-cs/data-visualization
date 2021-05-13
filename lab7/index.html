@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/> 
+		<title>Lab 7 - Final of D3</title>
+		<script src="https://d3js.org/topojson.v2.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+		<link rel="stylesheet" href="./style.css">
+       </head>
+   	<body>
+   		<div id="main">
+
+	   		<div id="chart1"> 
+	   			<h2 id="title">Undergraduate Population by Region </h2>		
+				<div id="map">
+					<p id="selectedRegion"></p>
+					<svg width="960" height="600"></svg>
+				</div>
+			</div>
+
+			<div id="chart2" style="margin-left: 65em; margin-top: -42em">
+                <p id= 'yScale'>Y-Axis:
+                    <select class="custom-select small" id="ySelect" onchange="onScaleChanged()">
+                        <option value="Retention Rate (First Time Students)">Retention Rate (First Time Students)</option>
+                        <option value="Average Cost">Average Cost</option>
+                        <option value="Median Debt">Median Debt</option>   
+                        <option value="SAT Average">SAT Average</option>
+                        <option value="ACT Median">ACT Median</option>
+                        <option value="Admission Rate">Admission Rate</option>
+                        <option value="Completion Rate 150% time">Completion Rate 150% time</option>  
+                    </select>
+                </p>
+                <div id="scatterPlot">
+                </div>
+                <p id= 'xScale'>X-Axis:
+                    <select class="custom-select small" id="xSelect" onchange="onScaleChanged()">
+                        <option value="Average Cost">Average Cost</option>
+                        <option value="Retention Rate (First Time Students)">Retention Rate (First Time Students)</option>
+                        <option value="Median Debt">Median Debt</option>   
+                        <option value="SAT Average">SAT Average</option>
+                        <option value="ACT Median">ACT Median</option>
+                        <option value="Admission Rate">Admission Rate</option>
+                        <option value="Completion Rate 150% time">Completion Rate 150% time</option> 
+                    </select>
+                </p>
+            <div>
+
+			<!-- Split by
+			<div id="split-by-toggles" style="margin-left: -70em; margin-top: 5em">
+				<h5 id="title">Undergraduate Comparison</h5>
+
+				<div class="row">
+				  <div id="control-check" class="switch col 6">
+				    <label>
+				      <input switch-id="control-check" type="checkbox">
+				      <span class="lever"></span>
+				      Private / Public
+				    </label>
+				  </div>
+
+	  			  <div id="dept-check" class="switch col 6">
+				    <label>
+				      <input switch-id="dept-check" type="checkbox">
+				      <span class="lever"></span>
+				      Median Debt on Graduation / Median Debt on Withdrawal
+				    </label>
+				  </div>
+				</div>
+
+				<div class="row">
+				  <div id="earning-check" class="switch col 6">
+				    <label>
+				      <input switch-id="earning-check" type="checkbox">
+				      <span class="lever"></span>
+				      Mean Earnings / Median Earnings 
+				    </label>
+				  </div>
+
+				  <div id="aid-check" class="switch col 6">
+				    <label>
+				      <input switch-id="aid-check" type="checkbox">
+				      <span class="lever"></span>
+				      % Federal Loans/ Average Family Income
+				    </label>
+				  </div>
+				</div>
+
+				<svg id="bubbles-svg" width="1200" height="500" style="border: 1px solid #777;"></svg> -->
+
+			</div>
+
+		</div>
+		
+	</body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="./d3-tip.js"></script>
+	<script src="./main.js"></script>
+</html>
+
