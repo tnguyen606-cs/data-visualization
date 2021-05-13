@@ -1,0 +1,26 @@
+
+#main {
+    padding: 10px;
+}
+
+.legend rect {
+    stroke: #555;
+}
+
+.legend text {
+    font-family: "Open Sans";
+    font-size: 12px;
+    fill: #555;
+}
+
+.label {
+    text-anchor: middle;
+}
+
+.node {
+    fill-opacity: 0.6;
+}
+
+body {
+    font-family: 'Neue Helvetica W01','Helvetica Neue',Helvetica, Arial;
+}

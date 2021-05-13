@@ -1,0 +1,14 @@
+
+#main {
+    padding: 10px;
+}
+
+.legend rect {
+    stroke: #555;
+}
+
+.legend text {
+    font-family: "Open Sans";
+    font-size: 12px;
+    fill: #555;
+}
