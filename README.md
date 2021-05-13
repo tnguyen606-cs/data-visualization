@@ -23,7 +23,7 @@ Information visualization methods are applied to data from many different applic
 ## About The Project
 These labs are designed to teach you the skills needed to create data visualizations on the web. They will help you to learn how to program with the D3.js toolkit. D3 has become the go-to tool for creating interactive visualizations. D3 leverages existing web technologies in order to bring your interactive visualizations to a global audience via the Web.
 
-[course-git_hub]](https://github.gatech.edu/CS4460/Spring21-Labs-PUBLIC)
+[course-git_hub](https://github.gatech.edu/CS4460/Spring21-Labs-PUBLIC)
 
 ### Labs
 
