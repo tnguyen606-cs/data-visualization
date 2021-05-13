@@ -1,0 +1,47 @@
+body {
+    font-family: "Open Sans";
+}
+
+#main {
+    margin: 10px 20px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.4em;
+    color: #222;
+    font-family: "PostoniStandardBold", Georgia, serif;
+}
+
+.character {
+    display: inline-block;
+    width: 260px;
+    padding: 20px;
+    text-align: center;
+}
+
+.name {
+    font-size: 17px;
+    color: #444;
+    margin: 10px 0 5px 0;
+}
+
+.house {
+    font-size: 12px;
+    font-weight: bold;
+    color: #222;
+    margin: 6px 0;
+}
+
+.survival {
+    font-size: 14px;
+    color: #222;
+    margin: 4px 0;
+}
+
+.status {
+    font-size: 14px;
+    color: #666;
+    margin: 4px 0;
+}

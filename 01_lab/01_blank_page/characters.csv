@@ -1,0 +1,5 @@
+﻿name,status,current_location,power_ranking,house,house_affiliations,probability_of_survival
+Jon Snow,Alive… Again,Winterfell,3,stark,stark,84
+Davos Seaworth,Alive,Winterfell,-1,stark,"stark, baratheon",78
+Tyrion Lannister,Alive,Way to Westeros,4,targaryen,"targaryen, lannister",70
+Daenerys Targaryen,Alive,Way to Westeros,1,targaryen,targaryen,99
